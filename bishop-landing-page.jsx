@@ -220,7 +220,7 @@ const LifeInsuranceModal = ({ open, onClose }) => {
     const script = document.createElement("script");
     script.src = "https://cdn.quoteandapply.io/widget.js";
     script.setAttribute("data-strife-key", "_BnXH7RrYvWL2gim");
-    script.setAttribute("data-strife-container-id", "back9-container");
+    script.setAttribute("data-strife-container-id", "container-id");
     document.body.appendChild(script);
   }, [open]);
 
@@ -273,7 +273,7 @@ const LifeInsuranceModal = ({ open, onClose }) => {
           🔒 Your information goes directly to carriers for quoting — nowhere else. We never sell your data.
         </div>
 
-        <div id="back9-container" />
+        <div id="container-id" />
       </div>
     </div>
   );
